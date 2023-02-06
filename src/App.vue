@@ -194,11 +194,7 @@ $purple_text_color: #bab7d4;
                     font-size: 40px;
                     line-height: 40px;
                 }
-                @media (min-width: 1024px) {
-                    font-size: 65px;
-                    line-height: 65px;
-                    transform: translateY(-2rem);
-                }
+
                 @media (min-width: 1440px) {
                     font-size: 50px;
                     line-height: 40px;
@@ -218,10 +214,7 @@ $purple_text_color: #bab7d4;
                     line-height: 32px;
                     max-width: 60000px;
                 }
-                @media (min-width: 1024px) {
-                    font-size: 32px;
-                    line-height: 40px;
-                }
+
                 @media (min-width: 1440px) {
                     font-size: 16px;
                     line-height: 26px;
@@ -247,10 +240,6 @@ $purple_text_color: #bab7d4;
                 width: 100%;
                 @media (min-width: 768px) {
                     font-size: 18px;
-                }
-                @media (min-width: 1024px) {
-                    font-size: 24px;
-                    padding: 24px 66px 24px 67px;
                 }
 
                 span {
@@ -282,10 +271,7 @@ $purple_text_color: #bab7d4;
                         @media (min-width: 768px) {
                             font-size: 18px;
                         }
-                        @media (min-width: 1024px) {
-                            font-size: 24px;
-                            margin-bottom: 24px;
-                        }
+
                         &:focus,
                         &:active {
                             outline: none;
@@ -311,9 +297,6 @@ $purple_text_color: #bab7d4;
                     @media (min-width: 768px) {
                         font-size: 14px;
                     }
-                    @media (min-width: 1024px) {
-                        font-size: 20px;
-                    }
                 }
 
                 .btn {
@@ -334,9 +317,6 @@ $purple_text_color: #bab7d4;
                     @media (min-width: 768px) {
                         font-size: 18px;
                     }
-                    @media (min-width: 1024px) {
-                        font-size: 24px;
-                    }
                 }
                 .terms {
                     font-weight: 500;
@@ -346,9 +326,7 @@ $purple_text_color: #bab7d4;
                     @media (min-width: 768px) {
                         font-size: 14px;
                     }
-                    @media (min-width: 1024px) {
-                        font-size: 20px;
-                    }
+
                     span {
                         color: $pink;
                         &:hover {
